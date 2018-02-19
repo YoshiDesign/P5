@@ -1,1 +1,2 @@
-###[http://alyrist.com/p5](http://www.alyrist.com/pages/matrix.html)
+Check out this artwork [here](http://www.alyrist.com/pages/matrix.html)
+Based on a demo by [Emily Xie](http://xie-emily.com/)
