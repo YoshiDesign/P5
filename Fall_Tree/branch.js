@@ -1,10 +1,11 @@
 function Branch(begin, end) {
-    // our passed in init vector
+    // our passed-in init vector
     this.begin = begin;
     this.end = end;
-    // productivity switch
+    // A simple flag
     this.finished = false;
-
+    
+    // Currently not being called. This makes the tree jiggle (simulate a breeze?)
     this.jitter = function() {
         this.end.x += random(-1, 1);
         this.end.y += random(-1, 1);
