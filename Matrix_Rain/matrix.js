@@ -11,7 +11,7 @@ function setup() {
 	);
 	background(0);
 	stream = new Stream();
-	// Populate steams[] with Stream.symbols[] (2d array)
+	// Populate streams[] with Stream.symbols[] (2d array)
 	var x = 0;
 	for (var i = 0; i <= width / symbolSize; i++) {
 		var stream = new Stream();
@@ -57,7 +57,7 @@ function Symbol(x, y, speed, first) {
 	// Generate Katakana https://en.wikipedia.org/wiki/Katakana_(Unicode_block)
 	this.setToRandomSymbol = function() {
 		/*
-		/ frameCount is P5 native
+		/ frameCount is in the P5 lib
 		/ we are changing the character based on the frame count
 		*/
 		if (frameCount % this.switchInterval == 0) {
@@ -121,7 +121,7 @@ function Stream() {
 			} else {
 				fill(0, 255, 70);
 			}
-			// THIS IS NOT JQUERY'S TEXT() METHOD
+			// !!! Not to be confused with JQuery.text() !!!
 			// https://p5js.org/reference/#/p5/text
 			text(symbol.value, symbol.x, symbol.y);
 			// Make it rain
