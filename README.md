@@ -1,7 +1,6 @@
-# P5JS
-### An artistic JavaScript framework for rendering dynamic & interactive elements with the HTML5 canvas.
+# Having fun with P5js
 
-ProcessingJS has been around for a long time and has carefully matured into P5; a powerful HTML5 Canvas Rendering engine and framework.
+ProcessingJS has been around for a long time and has carefully matured into P5; a fairly efficient HTML5 Canvas Rendering engine and framework. P5js also supports WebGL and also includes a Python library.
 Anyone can learn how to create the above examples and many more by visiting the following sources.
 
 * [P5js.org](https://p5js.org)
